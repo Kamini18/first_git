@@ -1,5 +1,9 @@
 class First
   def A
-    puts "hey"
+#<<<<<<< HEAD
+    puts "hhhllo"     #From Second-branch data
+#=======
+    puts "hey"        #From Master-branch data
+#>>>>>>> master
   end
 end
